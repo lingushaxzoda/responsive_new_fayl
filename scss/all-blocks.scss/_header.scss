@@ -1,0 +1,51 @@
+.header {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.nav {
+    &_list {
+        display: flex;
+    }
+
+    &_link {
+        color: #83888F;
+        font-family: "Barlow";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        text-transform: uppercase;
+        padding-left: 20px;
+    }
+    }
+    .btn{
+        border: none;
+        background-color: #fff;
+        display: none;
+    }
+@media only screen and (max-width:623px){
+    .nav{
+        display: none;
+    }
+    .btn{
+        display: block;
+    }
+    .btn_teng{
+        display: block;
+    }
+    .btn_x{
+        display: none;
+    }
+    }
+    .btn_teng{
+        display: block;
+    }
+    .btn_x{
+        display: none;
+    }
+
+    
